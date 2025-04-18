@@ -43,7 +43,7 @@ def translate_function(nucleotide_seq):
         aa_seq_string += aa
     return aa_seq_string
 
-# Step 4: Alternative translation using BioPython (Optional)
+# Step 4: Alternative translation using BioPython 
 # def alternative_translate(seq):
 #     return str(seq.translate(table="Vertebrate Mitochondrial", to_stop=True))
 
